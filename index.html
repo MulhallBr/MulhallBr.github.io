@@ -1,65 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brian Mulhall - Home</title>
-  </head>
-  <body>
-    <div class="containter m-4">
-        <div class="row justify-content-center">
-            <h1 class="text-center" style="font-size:6vw;">Brian Mulhall</h1>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Brian Mulhall</h1>
+            <h2>brian.mulhall@hotmail.com</h5>
+            <ul>
+                <li><a href="https://github.com/MulhallBr" target="_blank">github</a></li>
+                <li><a href="https://www.linkedin.com/in/brian-mulhall/" target="_blank">linkedin</a></li>
+            </ul>
         </div>
-        <div class="row justify-content-center">
-            <h5 class="text-center" style="font-size:2.5vw;">brian.mulhall@hotmail.com</h5>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col">
-                <h5 class="text-right" style="font-size:2.5vw;"> <a href="https://github.com/MulhallBr" target="_blank">github</a> </h4class="text-center">
-            </div>
-            <div class="col">
-                <h5 class="text-left" style="font-size:2.5vw;"> <a href="https://www.linkedin.com/in/brian-mulhall/" target="_blank">linkedin</a> </h5>
-            </div>
-        </div>
-    </div>
-    <div class="containter mx-5 mb-5">
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-5 col-6">
-                <img src="src/ArtWander.png" class="rounded img-fluid">
-                <h5 class="text-center mt-3" style="font-size:2.5vw;"> 
-                    <a href="https://github.com/MulhallBr/Artwander">Artwander iOS</a> 
-                </h5>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-5 col-6">
-                <img src="src/ArtWall.png" class="rounded img-fluid">
-                <h5 class="text-center mt-3" style="font-size:2.5vw;"> 
-                    <a href="https://github.com/MulhallBr/ArtWall ">Sheridan ArtWall</a> 
-                </h5>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-5 col-6">
-                <img src="src/TaskCrawl.png" class="rounded img-fluid">
-                <h5 class="text-center mt-3" style="font-size:2.5vw;">
-                    <a href="https://github.com/MulhallBr/TaskCrawler">Task Crawler</a> 
-                </h5>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-5 col-6">
-                <img src="src/COVIDProto.png" class="rounded img-fluid">
-                <h5 class="text-center mt-3" style="font-size:2.5vw;"> 
-                    <a href="https://github.com/MulhallBr/HCI_COVID19App_Prototype">COVID-19 App Prototype</a> 
-                </h5>
-            </div>
-        </div>
-    </div>
+    </header>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    <section class="projects">
+        <div class="container">
+            <div class="project">
+                <img src="src/ArtWall.png" alt="ArtWall Project">
+                <div class="description">
+                    <h2>Sheridan Artwall</h2>
+                    <p>
+                        An art and works sharing platform for Sheridan students. Hybrid mobile application that acts very similar to Instagram, allowing students to post their artistic works and share them with other users. Includes profile creation and user authentication during login, as well as a database of posts and their likes.
+                    </p>
+                    <br>
+                    <h4>Developed Using:</h2>
+                    <p>IntelliJ, Cordova Framework, JavaScript, Google Firebase, Bootstrap, HTML5, CSS</p>
+                    <br>
+                    <a href="https://github.com/MulhallBr/ArtWall" target="_blank">github</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="src/TaskCrawl.png" alt="Task Crawler">
+                <div class="description">
+                    <h2>Task Crawler</h2>
+                    <p>
+                        A productivity and time management android app developed in order to help users complete tasks on time; forming habits by way of a gamified reward system. Users add tasks to their to-do list and experience points and in-game items are awarded when they are completed.
+                    </p>
+                    <br>
+                    <h4>Developed Using:</h2>
+                    <p>Android Studio, Java, Room (SQLite)</p>
+                    <br>
+                    <a href="https://github.com/MulhallBr/TaskCrawler" target="_blank">github</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="src/ArtWander.png" alt="ArtWander iOS">
+                <div class="description">
+                    <h2>ArtWander iOS</h2>
+                    <p>
+                        An iOS application that allows users to create a profile and interact with the rest of Sheridan students through a dedicated social media environment, one specifically tailored to help students find others to help with their school projects or passion projects. Includes a main feed of posts, profile pages, and instant messaging among other technologies, such as geolocation, and WatchOS components.
+                    </p>
+                    <br>
+                    <h4>Developed Using:</h2>
+                    <p>Xcode, Swift, Google Firebase</p>
+                    <br>
+                    <a href="https://github.com/SheridanCS/CampusConnect-iOS" target="_blank">github</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="src/COVIDProto.png" alt="COVID Alert Prototype">
+                <div class="description">
+                    <h2>COVID Alert Prototype</h2>
+                    <p>
+                        Showcasing my design skills using Figma - this is a prototype mockup of an Android application that is meant to help infrom users about the Covid-19 pandemic, and give users usefull information to assist you in these troubling times. Stay safe and connected using this appliation.
+                    </p>
+                    <br>
+                    <h4>Developed Using:</h2>
+                    <p>Figma</p>
+                    <br>
+                    <a href="https://github.com/MulhallBr/HCI_COVID19App_Prototype" target="_blank">github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
